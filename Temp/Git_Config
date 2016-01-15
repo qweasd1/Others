@@ -1,0 +1,5 @@
+[credential]
+	helper = wincred # this free you from input password and user name every time you work with remote server
+[alias]
+	last = log -1 HEAD
+	tree = log --oneline --all --decorate --graph
